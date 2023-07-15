@@ -1,0 +1,87 @@
+	.randButton {
+		-fx-display: flex;
+		-fx-justify-content: center;
+		-fx-align-items: center;
+		-fx-padding: 10px 15px;
+		-fx-gap: 15px;
+		-fx-background-color: #424242;
+		-fx-background-radius: 5px;
+		-fx-outline-offset: -3px;
+		-fx-border-radius: 5px;
+		-fx-border: none;
+		-fx-cursor: pointer;
+		-fx-transition: 400ms;
+		-fx-border-width: 3px;
+		-fx-border-color: white; 
+	}
+
+	.randButton .text {
+		-fx-color: white;
+
+	}
+
+	.randButton svg path {
+		-fx-transition: 400ms;
+	}
+
+	.randButton:hover {
+		-fx-background-color: #2e2e2e;
+		-fx-border-color: #d1d1d1;
+	}
+
+	.randButton:hover .text {
+		-fx-color: #181717;
+	}
+
+	.randButton:hover svg path {
+		-fx-fill: #181717;
+	}
+
+
+
+	.folderButton {
+		-fx-background-color: transparent;
+
+	}
+
+	.folderButton:hover{
+		-fx-background-color: #d1d1d1;
+
+	}
+	.folderButton:hover .label{
+		-fx-text-fill: black;
+
+	}
+
+
+
+	.gradeChoiseBox {
+		-fx-background-color: #303030;
+
+
+	}
+	.gradeChoiseBox .label {
+		-fx-text-fill: white;
+		
+	}
+	.gradeChoiseBox:hover {
+		-fx-background-color: #424242;
+		-fx-text-fill:#303030;
+	}
+
+	.gradeChoiseBox .arrow, .gradeChoiseBox .arrow-button {
+		-fx-background-color: transparent;
+	}
+	.choice-box .context-menu { 
+		-fx-background-color: black;
+	}
+	.choice-box .menu-item:focused {
+		 -fx-background-color: orange;
+	 }
+	.choice-box .menu-item > .label { 
+		-fx-text-fill: white;
+	 }
+
+	.choice-box .menu-item:focused > .label {
+		 -fx-text-fill: black;
+	 }
